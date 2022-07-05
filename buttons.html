@@ -1,16 +1,27 @@
 <style>
+    button{
+        margin-right: 10px;
+        margin-left: 10px;        
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        transition: all 200ms;
+    }
+
     .subscribe-button {
         background-color: rgb(200, 0, 0);
         color: white;
         border-color: green;
-        border: none;
-        height: 35px;
-        width: 100px;
+
+        border: none;        
         border-radius: 2px;
-        cursor: crosshair;
-        margin-right: 5px;
-        transition: opacity 400ms;
-        transition: background-color 3000ms;
+
+        cursor: pointer;               
+
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        padding-left: 15px;        
     }
 
     .subscribe-button:hover {
@@ -19,20 +30,22 @@
 
     .subscribe-button:active {
         background-color: aqua;
-        cursor: copy;
+        cursor: pointer;
     }
 
     .join-button{
         background-color: white;
         color: rgb(29, 74, 208);
         border-color: rgb(29, 74, 208);
-        border-style: solid;
-        height: 35px;
-        width: 55px;
+        border-style: solid;        
         border-radius: 1px;
         border-width: 1px;
-        cursor: grab;
-        transition: box-shadow 200ms;
+        cursor: pointer;        
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .join-button:hover{
@@ -45,16 +58,21 @@
     .tweet-button{
         background-color: rgb(18, 146, 206);
         color: white;
-        border-color: rgb(29, 74, 208);
-        border-style: solid;
-        height: 35px;
-        width: 74px;
         border-radius: 18px;
         border: none;
-        cursor: help;
+        cursor: pointer;
         font-weight: bold;
-        font-size: 15px;
-        margin-left: 18px;        
+        font-size: 15px;             
+        
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 15px;
+        padding-left: 15px;       
+    }
+
+    .tweet-button:hover{
+        background-color: rgb(14, 113, 158);
+        color: white;          
     }
 </style>
 
