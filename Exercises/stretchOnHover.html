@@ -1,0 +1,33 @@
+<style>
+    .stretch{
+        border: none;
+        background-color: green;
+        color: white;
+
+        --vertical-padding:10px;
+        padding-top: var(--vertical-padding);
+        padding-bottom: var(--vertical-padding);
+
+        --horizontal-padding:15px;
+        padding-left: var(--horizontal-padding);
+        padding-right: var(--horizontal-padding);
+
+        transition: all 100ms;
+    }
+
+    .stretch:hover{
+        --extended-vertical-padding:20px;
+        padding-top: var(--extended-vertical-padding);
+        padding-bottom: var(--extended-vertical-padding);
+
+        --extended-horizontal-padding:40px;
+        padding-left: var(--extended-horizontal-padding);
+        padding-right: var(--extended-horizontal-padding);
+
+        cursor: pointer;
+    }
+</style>
+
+<button class="stretch">
+    Stretch
+</button>

@@ -1,27 +1,27 @@
 <style>
-    button{
-        margin-right: 10px;
-        margin-left: 10px;        
-        margin-top: 0px;
-        margin-bottom: 0px;
+    .subscribe-button {       
 
-        transition: all 200ms;
-    }
-
-    .subscribe-button {
         background-color: rgb(200, 0, 0);
         color: white;
         border-color: green;
+        border: none;  
 
-        border: none;        
+        --vertical_padding:14px;
+        --horizontal_padding:18px;
+        padding-top: var(--vertical_padding);
+        padding-bottom: var(--vertical_padding);
+        padding-left: var(--horizontal_padding);
+        padding-right: var(--horizontal_padding);
+
+        --rightmargin:5px;
+        margin-right: var(--rightmargin);
+        
+        /* vertical-align:top; */
+
         border-radius: 2px;
-
-        cursor: pointer;               
-
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-right: 15px;
-        padding-left: 15px;        
+        cursor: pointer;
+        transition: opacity 400ms;
+        transition: background-color 3000ms;
     }
 
     .subscribe-button:hover {
@@ -37,15 +37,29 @@
         background-color: white;
         color: rgb(29, 74, 208);
         border-color: rgb(29, 74, 208);
-        border-style: solid;        
+        border-style: solid;
+        
+        /*
+        --vertical_padding:13px;
+        --horizontal_padding:18px;
+        padding-top: var(--vertical_padding);
+        padding-bottom: var(--vertical_padding);
+        padding-left: var(--horizontal_padding);
+        padding-right: var(--horizontal_padding);
+        */
+        
+        padding-top: 20px;        
+        padding-left: 30px;        
+
+        vertical-align: top;
+
+        --rightmargin:5px;
+        margin-right: var(--rightmargin);
+
         border-radius: 1px;
         border-width: 1px;
-        cursor: pointer;        
-        
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 15px;
-        padding-left: 15px;
+        cursor: pointer;
+        transition: box-shadow 200ms;
     }
 
     .join-button:hover{
@@ -58,21 +72,24 @@
     .tweet-button{
         background-color: rgb(18, 146, 206);
         color: white;
+        border-color: rgb(29, 74, 208);
+        border-style: solid;
+        
+        --vertical_padding:8px;
+        --horizontal_padding:15px;
+        padding-top: var(--vertical_padding);
+        padding-bottom: var(--vertical_padding);
+        padding-left: var(--horizontal_padding);
+        padding-right: var(--horizontal_padding);
+
         border-radius: 18px;
         border: none;
         cursor: pointer;
         font-weight: bold;
-        font-size: 15px;             
-        
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-right: 15px;
-        padding-left: 15px;       
-    }
+        font-size: 15px;
 
-    .tweet-button:hover{
-        background-color: rgb(14, 113, 158);
-        color: white;          
+        --rightmargin:5px;
+        margin-right: var(--rightmargin);
     }
 </style>
 

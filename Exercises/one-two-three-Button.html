@@ -1,0 +1,43 @@
+<style>
+    button{
+        border: none;
+        background-color: green;
+        color: white;
+
+        --vertical-padding:10px;
+        padding-top: var(--vertical-padding);
+        padding-bottom: var(--vertical-padding);
+
+        --horizontal-padding:15px;
+        padding-left: var(--horizontal-padding);
+        padding-right: var(--horizontal-padding);  
+        
+        --horizontal-margin:25px;
+        margin-left: var(--horizontal-margin);
+        margin-right: var(--horizontal-margin);
+
+        transition: all 200ms;
+    }
+
+    button:hover{
+        --horizontal-padding:30px;
+        padding-left: var(--horizontal-padding);
+        padding-right: var(--horizontal-padding);  
+        
+        --horizontal-margin:10px;
+        margin-left: var(--horizontal-margin);
+        margin-right: var(--horizontal-margin);
+    }
+</style>
+
+<button>
+    One
+</button>
+
+<button>
+    Two
+</button>
+
+<button>
+    Three
+</button>
