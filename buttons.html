@@ -1,14 +1,25 @@
 <style>
-    .subscribe-button {
+    .subscribe-button {       
+
         background-color: rgb(200, 0, 0);
         color: white;
         border-color: green;
-        border: none;
-        height: 35px;
-        width: 100px;
+        border: none;  
+
+        --vertical_padding:14px;
+        --horizontal_padding:18px;
+        padding-top: var(--vertical_padding);
+        padding-bottom: var(--vertical_padding);
+        padding-left: var(--horizontal_padding);
+        padding-right: var(--horizontal_padding);
+
+        --rightmargin:5px;
+        margin-right: var(--rightmargin);
+        
+        /* vertical-align:top; */
+
         border-radius: 2px;
-        cursor: crosshair;
-        margin-right: 5px;
+        cursor: pointer;
         transition: opacity 400ms;
         transition: background-color 3000ms;
     }
@@ -19,7 +30,7 @@
 
     .subscribe-button:active {
         background-color: aqua;
-        cursor: copy;
+        cursor: pointer;
     }
 
     .join-button{
@@ -27,11 +38,27 @@
         color: rgb(29, 74, 208);
         border-color: rgb(29, 74, 208);
         border-style: solid;
-        height: 35px;
-        width: 55px;
+        
+        /*
+        --vertical_padding:13px;
+        --horizontal_padding:18px;
+        padding-top: var(--vertical_padding);
+        padding-bottom: var(--vertical_padding);
+        padding-left: var(--horizontal_padding);
+        padding-right: var(--horizontal_padding);
+        */
+        
+        padding-top: 20px;        
+        padding-left: 30px;        
+
+        vertical-align: top;
+
+        --rightmargin:5px;
+        margin-right: var(--rightmargin);
+
         border-radius: 1px;
         border-width: 1px;
-        cursor: grab;
+        cursor: pointer;
         transition: box-shadow 200ms;
     }
 
@@ -47,14 +74,22 @@
         color: white;
         border-color: rgb(29, 74, 208);
         border-style: solid;
-        height: 35px;
-        width: 74px;
+        
+        --vertical_padding:8px;
+        --horizontal_padding:15px;
+        padding-top: var(--vertical_padding);
+        padding-bottom: var(--vertical_padding);
+        padding-left: var(--horizontal_padding);
+        padding-right: var(--horizontal_padding);
+
         border-radius: 18px;
         border: none;
-        cursor: help;
+        cursor: pointer;
         font-weight: bold;
         font-size: 15px;
-        margin-left: 18px;        
+
+        --rightmargin:5px;
+        margin-right: var(--rightmargin);
     }
 </style>
 
