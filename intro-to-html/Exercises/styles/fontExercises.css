@@ -1,0 +1,93 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.seperator{
+    --vertical-margin:5px;
+    margin-top: var(--vertical-margin);
+    margin-bottom: var(--vertical-margin);
+
+    text-align: center;
+}
+
+.tahoma{
+    font-family: Tahoma;
+    font-weight: bold;        
+}
+
+.bigdeal{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.saleend{
+    color: red;
+    font-style: italic;
+    font-family: Arial;
+}
+
+.course-title{
+    font-family: Verdana;
+    font-weight: bold;
+}
+.course-level{
+    font-family: Verdana;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.course-description{
+    font-family: Verdana;
+    width: 300px;
+    margin-bottom: 15px;        
+}
+.get-started{
+    border: none;
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shopping-title{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.shopping-desc{
+    font-family: Arial;        
+    text-align: center;  
+    padding-bottom: 15px;      
+}
+.learnmore{
+    font-family: Arial;        
+    text-align: center;
+    color: blue;
+}
+.stock{
+    font-family: Roboto;
+    font-weight: 700;  
+    /* font-style: regular;   */
+}
+.stock p{
+    margin-bottom: 5px;
+}
+.price{
+    font-size: 32px;
+    margin-right: 8px;
+}    
+.currency{
+    color: gray;
+}
+.increment{
+    color: green;
+}
+.history{
+    color: grey;
+}
+.increment_history{
+    color: red;
+}
