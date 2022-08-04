@@ -1,5 +1,36 @@
-img{
-    border-width: 10px;
-    border-color: blue;
-    border: solid;
+.e7a img{
+    width: 200px;    
+    border-radius: 20px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.e7b img{
+    width: 200px;
+    height: 200px;    
+    object-fit: cover;
+    object-position: center;
+}
+
+.e7c img{
+    width: 200px;
+    height: 200px;    
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.e7d input{
+    border-radius: 5px;
+}
+
+.e7e input{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgb(79, 79, 79);
+    border: none;
+}
+
+.e7f p{    
+    color: red;    
 }
