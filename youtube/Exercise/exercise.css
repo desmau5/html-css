@@ -1,0 +1,99 @@
+div{
+    --vertical-padding: 5px;
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+    padding-left: 5px;
+    margin-bottom: 20px;
+    border: solid;
+    border-width: 1px;
+}
+
+.e7a img{
+    width: 200px;    
+    border-radius: 20px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.e7b img{
+    width: 200px;
+    height: 200px;    
+    object-fit: cover;
+    object-position: center;
+}
+
+.e7c img{
+    width: 200px;
+    height: 200px;    
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.e7d input{
+    border-radius: 5px;
+}
+
+.e7e input{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgb(79, 79, 79);
+    border: none;
+}
+
+.e7f p{    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkedin_label{
+    margin-bottom: 2px;
+}
+
+.linkedin_email{
+    border-radius: 5px;
+    width: 400px;
+}
+
+.linkedin_agreeJoin{    
+    --vertical-padding: 15px;
+    --horizon-padding: 100px;
+    width: 400px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(79, 116, 226);
+    border-radius: 50px;
+    border: none;
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+    padding-left: var(--horizon-padding);
+    padding-right: var(--horizon-padding);
+}
+
+.e7g img,input,button{
+    vertical-align: middle;
+}
+
+.tweetCon{
+    --pic-dimension: 50px;
+    width: var(--pic-dimension);
+    height: var(--pic-dimension);
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.tweetBar{
+    border: none;
+}
+
+.tweetButton{
+    --vertical-padding:10px;
+    --horizontal-padding:20px;
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+    padding-left: var(--horizontal-padding);
+    padding-right: var(--horizontal-padding);
+}
