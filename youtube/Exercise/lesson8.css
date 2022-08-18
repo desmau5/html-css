@@ -1,0 +1,109 @@
+div{
+    border: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.e8a input{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.e8b p{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.e8c img{
+    width: 200px;
+    margin-left: 50px;
+    display: block;
+}
+
+.e8c input{
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 5px rgb(79, 79, 79);
+    border: none;    
+    padding-left: 15px;
+}
+
+.e8d .firstname, .lastname, .email{
+    margin-bottom: 5px;
+    border-color: rgb(187, 187, 187);
+    border-radius: 3px;
+    height: 25px;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5px;
+}
+
+.e8d .firstname, .lastname{
+    width: 100px;
+}
+
+.e8d .email{
+    width: 212px;
+    display: block;
+}
+
+.e8d button{
+    width: 220px;
+    background-color: rgb(58, 58, 230);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+
+    --vertical-padding:8px;
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+}
+
+.e8e input{
+    --horizontal-padding:12px;
+    --vertical-padding:9px;
+
+    display: block;
+    width: 250px;   
+    margin-bottom: 5px; 
+    background-color: rgb(226, 226, 226);
+    border: none;
+
+    padding-left: var(--horizontal-padding);
+    padding-right: var(--horizontal-padding);
+
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+
+    font-size: 12px;
+}
+
+.e8e button{
+    --horizontal-padding:10px;
+    --vertical-padding:9px;
+    margin-top: 15px;
+    margin-right: 12px;
+
+    padding-left: var(--horizontal-padding);
+    padding-right: var(--horizontal-padding);
+
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+
+    border: none;    
+}
+
+.e8e .reqnow{
+    color: white;
+    background-color: black;
+}
