@@ -47,7 +47,7 @@ div{
     padding-bottom: 8px;
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 0px 0px 2px rgb(61, 61, 61);
-    width: 350px;
+    width: 380px;
     border-radius: 5px; 
     /* position: absolute;        */
 }
@@ -60,11 +60,86 @@ div{
 }
 
 .tweetBar{
-    border:solid; 
-    width: 220px;   
+    border: none;    
+    width: 240px;   
 }
 
 .tweetButton{
    border: none;
-   border-radius: ;
+   background-color: rgb(57, 57, 224);
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   border-radius: 30px;
+   height: 25px;
+   width: 60px;
+}
+
+/* class e9f, id a1 */
+.e9f{
+    border: none;    
+    width: 200px;
+    box-shadow: 0px 0px 7px black;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: var(--transTime);    
+}
+
+:root{
+    --transTime:100ms;
+}
+
+#a1:hover{    
+    transform: translateY(10px);
+    transition: all var(--transTime) ease;
+    cursor: pointer;
+}
+#a2:hover{    
+    transform: translateY(10px);
+    transition: all var(--transTime) ease;
+    cursor: pointer;
+}
+#a3:hover{    
+    transform: translateY(10px);
+    transition: all var(--transTime) ease;
+    cursor: pointer;
+}
+
+.pfp{
+    width: 200px;        
+}
+
+.pfp2{
+    width: 200px;    
+    height: 200px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.e9f p{
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.username{
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.mutualFriends{
+    margin-bottom: 20px;
+}
+
+.addFriendButton{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(48, 95, 20);
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
 }
