@@ -1,3 +1,9 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .searchbar{
     display: block;
     margin-bottom: 20px;
@@ -12,4 +18,40 @@
 
 .thumbnail{
     width: 300px;
+}
+
+.pfp{
+    width: 100%;
+    border-radius: 25px;
+}
+.channel-pfp{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.video-description{
+    display: inline-block;
+    width: 245px;       
+    vertical-align: top; 
+}
+.video-info{
+    margin-top: 15px;
+}
+.video-title{
+    margin-bottom: 12px;
+    font-size: 14px;    
+    font-weight: 500;
+    line-height: 20px;    
+}
+.video-author, .video-stats{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(96, 96, 96);
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.video-stats{    
+    margin-top: 1px;
 }
