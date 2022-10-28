@@ -1,0 +1,30 @@
+.e11a{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+.e11b{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.e11c{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.e11d{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 40px;
+}
+.pfp{
+    width: 100%;
+}
+.friend{
+    border: none;    
+    box-shadow: 0px 0px 8px black;
+}
+.description{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}

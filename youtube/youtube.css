@@ -8,35 +8,24 @@ p{
     display: block;
     margin-bottom: 20px;
 }
-
-.video-preview{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }
-
-.thumbnail{
-    width: 300px;
-}
-
-.pfp{
+.thumbnail{    
     width: 100%;
-    border-radius: 25px;
+    display: block;
 }
-.channel-pfp{
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
-}
-
-.video-description{
-    display: inline-block;
-    width: 245px;       
-    vertical-align: top; 
-}
-.video-info{
+.video-info-grid{
     margin-top: 15px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.pfp{
+    width: 40px;
+    border-radius: 20px;
 }
 .video-title{
     margin-bottom: 12px;
