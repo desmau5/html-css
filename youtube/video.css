@@ -1,24 +1,92 @@
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(404px,1fr)); */
     column-gap: 16px;
-    row-gap: 40px;
+    row-gap: 40px;            
+}
+a{
+    text-decoration: none;
+}
+.thumbnail-row{
+    position: relative;
+    margin-bottom: 8px;
 }
 .thumbnail{    
     width: 100%;
     display: block;
 }
-.video-info-grid{
-    margin-top: 15px;
+.video-time{
+    --horizontal-padding: 4px;
+    --vertical-padding: 4px;
+
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: var(--horizontal-padding);
+    padding-right: var(--horizontal-padding);
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+
+    border-radius: 2px;
+
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
+.video-info-grid{    
     display: grid;
     grid-template-columns: 50px 1fr;
 }
 .pfp{
-    width: 40px;
-    border-radius: 20px;
+    width: 36px;
+    border-radius: 18px;
+    vertical-align: bottom;
 }
+/* tooltip */
+.pfp-tooltip{
+    position: absolute;
+    bottom: -110px;
+    display: flex;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgb(182, 182, 182);
+    border-radius: 10px;
+    white-space: nowrap;
+    align-items: center;
+    padding: 15px;     
+    z-index: 100;  
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 200ms;
+}
+.pfp-container{
+    display: inline-block;    
+    position: relative;
+}
+.pfp-container:hover .pfp-tooltip{
+    opacity: 1;
+}
+.inside-tooltip-pfp{
+    border-radius: 100px;
+    margin-right: 20px;
+}
+.inside-tooltip-author{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+.inside-tooltip-author, .inside-tooltip-subscribers{
+    font-family: roboto;
+}
+.inside-tooltip-subscribers{
+    color: gray;
+}
+/* tooltip */
 .video-title{
-    margin-bottom: 12px;
+    margin-bottom: 5px;
     font-size: 14px;    
     font-weight: 500;
     line-height: 20px;    
@@ -30,6 +98,7 @@
 }
 .video-author{
     margin-bottom: 4px;
+    display: inline-block;
 }
 .video-stats{    
     margin-top: 1px;

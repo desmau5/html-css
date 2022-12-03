@@ -1,5 +1,10 @@
 body{
     margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    height: 3000px;
+    background-color: rgb(249, 249, 249);
 }
 p{
     font-family: 'Roboto', sans-serif;

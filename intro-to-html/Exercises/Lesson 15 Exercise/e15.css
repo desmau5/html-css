@@ -1,0 +1,81 @@
+body{
+    height: 3000px;
+    background-color: lightblue;
+}
+.box{
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: gray;
+}
+.close-button{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 40px;
+}
+.timestamp{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.container{
+    background-color: lightblue;
+    display: inline-block;
+    position: relative;
+    background-color: red;        
+}
+.cat{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.discount{
+    --horizontal:20px;
+    --vertical:10px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background-color: black;
+    color: white;
+    padding-left: var(--horizontal);
+    padding-right: var(--horizontal);
+    padding-top: var(--vertical);
+    padding-bottom: var(--vertical);
+}
+.add-to-cart-container{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.7);    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.add-to-cart-button{
+    border: 1px solid black;
+    padding-top: 10px;    
+    padding-bottom: 10px;    
+    padding-left: 10px;    
+    padding-right: 10px;    
+    background-color: white;
+    opacity: 1;
+}
