@@ -38,8 +38,7 @@
 .searchbar{
     flex: 1;
     height: 36px;
-    padding-left: 10px;
-    font-family: Roboto, Arial;
+    padding-left: 10px;    
     font-size: 16px;
     border-style: solid;
     border-width: 1px;
@@ -48,8 +47,7 @@
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     width: 0px;
 }
-.searchbar::placeholder{
-    font-family: Roboto, Arial;
+.searchbar::placeholder{    
     font-size: 16px;
 }
 .search-button{
@@ -77,8 +75,7 @@
 .upload-icon-container .tooltip,
 .apps-icon-container .tooltip,
 .notifications-icon-container .tooltip{
-    color: white;
-    font-family: Roboto;
+    color: white;    
     white-space: nowrap;
     background-color: gray;
     padding-top: 4px;
@@ -142,8 +139,7 @@
     background-color: rgb(200, 0, 0);
     color: white;    
     border-radius: 10px;
-
-    font-family: Roboto;
+    
     font-size: 11px;
     
     padding-left: var(--horizontal-padding);
